@@ -10,7 +10,7 @@
 <br/>
 
 ## 💻 Project
-
+[DEMO](https://coffeshop.midouz.com)
 This is a project made entirely in React for an e-commerce coffee sales site to improve concepts such as Context API, Router, form validation through react-hook-form, and zod and styled components for styling.
 
 ## ℹ️ How To Use
