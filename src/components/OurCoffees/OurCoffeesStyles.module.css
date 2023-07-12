@@ -1,0 +1,35 @@
+.our-coffees-container {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+@media (max-width: 700px) {
+  .our-coffees-container {
+    margin-top: 20rem;
+  }
+}
+
+.coffee-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 3.5rem;
+  margin-top: 3.5rem;
+}
+@media (max-width: 1000px) {
+  .coffee-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .coffee-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .coffee-list {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=OurCoffeesStyles.module.css.map */

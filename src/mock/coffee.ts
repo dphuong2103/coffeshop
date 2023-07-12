@@ -13,7 +13,7 @@ export const coffees = [
     name: 'American Espresso',
     description: 'Diluted espresso, less intense than the traditional one',
     photo: 'americano.png',
-    price: 9.9,
+    price: 10,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const coffees = [
     name: 'Creamy Espresso',
     description: 'Traditional espresso with creamy foam',
     photo: 'cremoso.png',
-    price: 9.9,
+    price: 8.5,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const coffees = [
     name: 'Iced Espresso',
     description: 'Beverage prepared with espresso and ice cubes',
     photo: 'gelado.png',
-    price: 9.9,
+    price: 3.4,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const coffees = [
     name: 'Coffee with Milk',
     description: 'Half and half of traditional espresso with steamed milk',
     photo: 'leite.png',
-    price: 9.9,
+    price: 5,
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ export const coffees = [
     description:
       'One shot of espresso with twice the amount of milk and creamy foam',
     photo: 'latte.png',
-    price: 9.9,
+    price: 6,
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ export const coffees = [
     description:
       'Drink with cinnamon made from equal parts of coffee, milk, and foam',
     photo: 'capuccino.png',
-    price: 9.9,
+    price: 7,
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ export const coffees = [
     name: 'Macchiato',
     description: 'Espresso mixed with a little hot milk and foam',
     photo: 'macchiato.png',
-    price: 9.9,
+    price: 5,
   },
   {
     id: 9,
@@ -71,7 +71,7 @@ export const coffees = [
     name: 'Mocaccino',
     description: 'Espresso with chocolate syrup, a little milk, and foam',
     photo: 'mocaccino.png',
-    price: 9.9,
+    price: 6.7,
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ export const coffees = [
     name: 'Cuban Coffee',
     description: 'Iced espresso drink with rum, cream, and mint',
     photo: 'cubano.png',
-    price: 9.9,
+    price: 6.5,
   },
   {
     id: 12,
@@ -95,7 +95,7 @@ export const coffees = [
     name: 'Hawaiian Coffee',
     description: 'Sweetened drink prepared with coffee and coconut milk',
     photo: 'havaiano.png',
-    price: 9.9,
+    price: 6.5,
   },
   {
     id: 13,
@@ -103,7 +103,7 @@ export const coffees = [
     name: 'Arabic Coffee',
     description: 'Drink prepared with Arabic coffee beans and spices',
     photo: 'arabe.png',
-    price: 9.9,
+    price: 3.4,
   },
   {
     id: 14,
@@ -112,6 +112,6 @@ export const coffees = [
     description:
       'Drink made with coffee, Irish whiskey, sugar, and whipped cream',
     photo: 'irlandes.png',
-    price: 9.9,
+    price: 7.7,
   },
 ];

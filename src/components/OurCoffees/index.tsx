@@ -7,7 +7,7 @@ export function OurCoffees() {
   return (
     <section className={`${styles['our-coffees-container']}`}>
       <TitleText size="l" color="subtitle">
-        Our coffees.
+        Our coffees
       </TitleText>
 
       <div className={styles['coffee-list']}>

@@ -1,0 +1,131 @@
+.colors-base-white {
+  color: #ffffff;
+}
+
+.colors-base-background {
+  background-color: #fafafa;
+}
+
+.colors-base-card {
+  background-color: #f3f2f2;
+}
+
+.colors-base-input {
+  background-color: #ededed;
+}
+
+.colors-base-button {
+  background-color: #e6e5e5;
+}
+
+.colors-base-hover {
+  background-color: #d7d5d5;
+}
+
+.colors-base-label {
+  color: #8d8686;
+}
+
+.colors-base-text {
+  color: #574f4d;
+}
+
+.colors-base-subtitle {
+  color: #403937;
+}
+
+.colors-base-title {
+  color: #272221;
+}
+
+.colors-base-error {
+  color: #f84747;
+}
+
+.colors-brand-purple-dark {
+  color: #4b2995;
+}
+
+.colors-brand-purple {
+  color: #8047f8;
+}
+
+.colors-brand-purple-light {
+  color: #ebe5f9;
+}
+
+.colors-brand-yellow-dark {
+  color: #c47f17;
+}
+
+.colors-brand-yellow {
+  color: #dbac2c;
+}
+
+.colors-brand-yellow-light {
+  color: #f1e9c9;
+}
+
+.text-sizes-title-title-xl {
+  font-size: 3rem;
+}
+
+.text-sizes-title-title-l {
+  font-size: 2rem;
+}
+
+.text-sizes-title-title-m {
+  font-size: 1.5rem;
+}
+
+.text-sizes-title-title-s {
+  font-size: 1.2rem;
+}
+
+.text-sizes-title-title-xs {
+  font-size: 1.125rem;
+}
+
+.text-sizes-text-regular-l {
+  font-size: 1.25rem;
+}
+
+.text-sizes-text-bold-l {
+  font-size: 1.25rem;
+}
+
+.text-sizes-text-regular-m {
+  font-size: 1rem;
+}
+
+.text-sizes-text-bold-m {
+  font-size: 1rem;
+}
+
+.text-sizes-text-regular-s {
+  font-size: 0.875rem;
+}
+
+.text-sizes-text-bold-s {
+  font-size: 0.75rem;
+}
+
+.text-sizes-components-tag {
+  font-size: 0.625rem;
+}
+
+.text-sizes-components-button-g {
+  font-size: 0.875rem;
+}
+
+.text-sizes-components-button-s {
+  font-size: 0.75rem;
+}
+
+.fonts-regular {
+  font-family: "Roboto";
+}
+
+.fonts-title {
+  font-family: "Baloo 2";
+}/*# sourceMappingURL=styles.module.css.map */

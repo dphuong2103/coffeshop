@@ -1,0 +1,65 @@
+.hero-container {
+  width: 100%;
+  height: 34rem;
+  background: url("../../../../assets/hero-background.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem;
+}
+@media (max-width: 700px) {
+  .hero-container {
+    gap: 1rem;
+    margin-top: 7rem;
+  }
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.5rem;
+}
+.hero-content > div {
+  flex: 1;
+}
+.hero-content > .imageContainer {
+  flex: 1;
+}
+.hero-content > .imageContainer img {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  .hero-content {
+    gap: 1rem;
+    margin-top: 10rem;
+    flex-direction: column-reverse;
+  }
+  .hero-content > div {
+    width: 100%;
+  }
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: "Baloo 2";
+  color: #272221;
+}
+
+.benefits-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.25rem;
+  margin-top: 4rem;
+}
+@media (max-width: 700px) {
+  .benefits-container {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+  }
+}/*# sourceMappingURL=HeroStyles.module.css.map */

@@ -1,0 +1,85 @@
+.coffee-card-container {
+  width: 100%;
+  background: #f3f2f2;
+  border-radius: 6px 36px 6px 36px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+  text-align: center;
+  margin-top: 3rem;
+}
+.coffee-card-container img {
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-top: -5rem;
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+.tags span {
+  background: #f1e9c9;
+  color: #c47f17;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #403937;
+  font-weight: 700;
+}
+
+.description {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  color: #8d8686;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+.card-footer > div {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.card-footer > div p {
+  line-height: 0.75rem;
+}
+
+.add-cart-wrapper {
+  width: 7.5rem;
+}
+.add-cart-wrapper > button {
+  width: 2.375rem;
+  height: 2.375rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4b2995;
+  border-radius: 6px;
+  margin-left: 0.3rem;
+  transition: 0.4s;
+}
+.add-cart-wrapper > button:hover {
+  background: #8047f8;
+}/*# sourceMappingURL=CoffeeCardStyles.module.css.map */

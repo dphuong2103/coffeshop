@@ -1,0 +1,40 @@
+.quantity-input {
+  flex: 1;
+  background: #e6e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  border-radius: 6px;
+  height: 2.375rem;
+}
+.quantity-input input {
+  text-align: center;
+  background: none;
+  border: none;
+  color: #272221;
+  width: 2rem;
+}
+.quantity-input input:focus {
+  outline: none;
+}
+.quantity-input.medium {
+  padding: 0.5rem;
+}
+.quantity-input.small {
+  padding: 0.3rem 0.5rem;
+}
+.quantity-input .icon-wrapper {
+  width: 0.875rem;
+  height: 0.875rem;
+  border: none;
+  background: none;
+  color: #8047f8;
+  transition: 0.4s;
+}
+.quantity-input .icon-wrapper.disabled {
+  opacity: 0.4;
+}
+.quantity-input .icon-wrapper:not(.disabled):hover {
+  color: #4b2995;
+}/*# sourceMappingURL=styles.module.css.map */

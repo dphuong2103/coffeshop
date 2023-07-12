@@ -1,0 +1,69 @@
+.coffee-cart-card-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e5e5;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.coffee-cart-card-container > .coffee-cart-card-container__content {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.coffee-cart-card-container > .coffee-cart-card-container__content img {
+  width: 4rem;
+  height: 4rem;
+}
+.coffee-cart-card-container > p {
+  align-self: flex-start;
+  font-weight: 700;
+}
+@media (max-width: 500px) {
+  .coffee-cart-card-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .coffee-cart-card-container > p {
+    align-self: flex-end;
+  }
+}
+
+.actions-container {
+  margin-top: 0.5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.actions-container > .actions-container__item {
+  max-width: 4.5rem;
+  height: 100%;
+}
+@media (max-width: 500px) {
+  .actions-container > .actions-container__item {
+    max-width: 100%;
+  }
+}
+
+.remove-button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #574f4d;
+  font-size: 0.75rem;
+  height: 100%;
+  border: none;
+  background: #e6e5e5;
+  padding: 0 0.5rem;
+  border-radius: 6px;
+  transition: 0.4s;
+}
+.remove-button svg {
+  color: #8047f8;
+}
+.remove-button:hover {
+  background: #d7d5d5;
+}/*# sourceMappingURL=styles.module.css.map */
