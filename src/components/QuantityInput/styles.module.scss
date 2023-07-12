@@ -1,0 +1,48 @@
+@import '../../styles/variables.scss';
+.quantity-input {
+  flex: 1;
+  background: $colors-base-button;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  border-radius: 6px;
+  height: 2.375rem;
+  //   padding: 0.5rem;
+
+  input {
+    text-align: center;
+    background: none;
+    border: none;
+    color: $colors-base-title;
+    width:2rem;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &.medium {
+    padding: 0.5rem;
+  }
+
+  &.small {
+    padding: 0.3rem 0.5rem;
+  }
+
+  .icon-wrapper {
+    width: 0.875rem;
+    height: 0.875rem;
+    border: none;
+    background: none;
+    color: $colors-brand-purple;
+    transition: 0.4s;
+
+    &.disabled {
+      opacity: 0.4;
+    }
+
+    &:not(.disabled):hover {
+      color: $colors-brand-purple-dark;
+    }
+  }
+}

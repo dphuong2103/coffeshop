@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+.complete-order-container {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+
+  .section-base-style {
+    width: 100%;
+    background: $colors-base-card;
+    border-radius: 6px;
+    padding: 2.5rem;
+  }
+}
